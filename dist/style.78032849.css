@@ -53,6 +53,12 @@ body {
   bottom: 0px;
 }
 
+.header__menu {
+  position: fixed;
+  top: 0px;
+  padding-top: 50px;
+}
+
 /* LOGO mobile*/
 .logo {
   font-family: Jura;
@@ -93,9 +99,29 @@ body {
   text-shadow: 0px 0px 4px rgba(188, 24, 41, 0.5);
 }
 
+.menu__link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu__list li {
+  list-style: none;
+}
+
 @media (min-width: 767px) {
   .logo {
     display: none;
+  }
+  .menu__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 

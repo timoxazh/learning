@@ -38,6 +38,13 @@ body{background-color: #191B1D;
     }
     &__burger:before{top:0px}
     &__burger:after{bottom: 0px;}
+
+
+    &__menu{position: fixed;
+        top: 0px;
+        padding-top: 50px;
+
+    }
 }
 /* LOGO mobile*/
 .logo{font-family: Jura;
@@ -63,7 +70,6 @@ body{background-color: #191B1D;
         vertical-align: bottom;
         color: #DA251D;
         text-shadow: 0px 0px 4px rgba(188, 24, 41, 0.5);
-        
         }
 
     &__text2{font-size: 8px;
@@ -74,9 +80,31 @@ body{background-color: #191B1D;
     
     
 }
+.menu{
+    &__link{font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        text-decoration:none;
+    }
+
+    &__list{
+        
+        li{list-style: none;
+        }
+        }
+    }
+
+
+
 @media (min-width:767px){
     .header__burger{
       
     }
     .logo{display: none;}
+
+    .menu__list{display: flex;}
 }
