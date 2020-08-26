@@ -598,5 +598,10 @@ body {
     margin-top: 10px;
     color: #FA7645;
   }
+  .note-symbol {
+    float: left;
+    color: #FA7745;
+    margin-left: -13px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
