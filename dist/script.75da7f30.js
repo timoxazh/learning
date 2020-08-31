@@ -125,6 +125,16 @@ $(document).ready(function () {
   $('.menu__close').click(function (event) {
     $('.header__burger, .header__menu').removeClass('menu-active');
   });
+
+  function randomInteger(min, max) {
+    // получить случайное число от (min-0.5) до (max+0.5)
+    var rand = min - 0.5 + Math.random() * (max - min + 1);
+    return Math.round(rand);
+  }
+
+  $('.content__button').click(function (event) {
+    $(alert(randomInteger(1, 3)));
+  });
 });
 },{}],"../../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -154,7 +164,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50974" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64527" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

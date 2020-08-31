@@ -9,6 +9,9 @@ body{background-color: #191B1D;
     position: relative;
     
 }
+.wrapper{	width: 100%;
+    max-width: 1142px;
+    margin: 0 auto;}
 
 .header{
     width: 100%;
@@ -470,6 +473,7 @@ margin-left: -4px;}
         /* FACTS */
         &__facts{
             width: 100%;
+            max-width: 952px;
             font-style: normal; 
             text-align: center;
             display: grid;
@@ -508,7 +512,8 @@ margin-left: -4px;}
             justify-content: center;
             margin-top: 48px;
             order: 6;
-            margin-left: -500px;}
+            margin-left: -800px;
+            }
         &__tile{
             width: 195px;
             height: 180px;
